@@ -8,7 +8,7 @@ import store.practicehello.practicehello.service.GuestbookService;
 
 import java.util.List;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "*")
 @RestController
 @RequestMapping("/api/guestbook")
 @RequiredArgsConstructor
